@@ -1,0 +1,52 @@
+/*body {
+    display: flex;
+	flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin-top: 200px;
+    background-color: #333;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+
+body {
+    display: grid
+;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 200px;
+    margin-top: 200px;
+    background-color: #333;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: green;
+	font-size: 50px;
+	padding-bottom: 60px;
+	margin: auto 0px;
+	text-align: center;
+
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.4);
+}
+
+#clock {
+    font-size: 128px;
+    color: #12a81e;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.5);
+    text-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+    background-color: #111;
+
+}
+
+/*just remove h1 tag and you'll have your digital clock*/
